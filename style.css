@@ -1,0 +1,260 @@
+@font-face {
+    font-family: Share-Tech-Mono;
+    src: url("./assets/fonts/ShareTechMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: Share-Tech;
+    src: url("./assets/fonts/ShareTech-Regular.ttf");
+}
+
+/* Pour tout */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #261C31;
+    color: #FFFFFF;
+    font-family: 'Share-Tech-Mono';
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 400;
+    margin: 0;
+}
+
+#main-content {
+    font-family: 'Share-Tech';
+}
+
+/* Bordure du main */
+main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -1.5%;
+    height: 100%;
+    width: 5px;
+    background-image: linear-gradient(180deg, #6041BF, #B5D8ED, #8A99D2);
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+}
+
+main::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -1.5%;
+    width: 101.5%;
+    height: 5px;
+    background-image: linear-gradient(90deg, #8A99D2, #B5D8ED, #6041BF);
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-top-right-radius: 32px;
+}
+
+.nav-item {
+    cursor: pointer;
+}
+
+
+/* Pour téléphone */
+
+
+/* Container Border */
+#container {
+    height: 90vh;
+    border: 10px solid transparent;
+    background-image: linear-gradient(#261C31, #261C31),
+        linear-gradient(150deg, #B5D8ED, #b5d8ed00 45%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+header,
+main {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+/* Header */
+
+header {
+    margin-top: 1.5rem;
+}
+
+/* Header title and subtitle */
+#header-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#header-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.625rem;
+}
+
+/* Header icon list */
+#header-icon-list {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+}
+
+.header-icon {
+    width: 36px;
+    height: 36px;
+}
+
+/* Main and Nav */
+#main-nav {
+    padding-bottom: 4.5rem;
+}
+
+/* Main */
+
+main {
+    margin-top: 2rem;
+    position: relative;
+}
+
+/* Contenue du main */
+#main-title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+#main-content {
+    font-size: 1rem;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+    text-align: justify;
+    letter-spacing: 0.08rem;
+    line-height: 1.15rem;
+}
+
+/* Navigation bar */
+
+nav {
+    background: linear-gradient(to right, #6041BF, #B5D8ED, #6041BF);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 4rem;
+    width: 100%;
+    color: #000;
+    font-size: 1.125rem;
+    z-index: 1;
+}
+
+#nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+/* Pour tablettes */
+@media screen and (min-width: 768px) {
+
+    #container {
+        margin: 1rem;
+        margin-bottom: 0;
+        border: 16px solid transparent;
+        border-radius: 64px;
+    }
+
+    /* header */
+    header {
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Header title and subtitle */
+    #header-title {
+        font-size: 3rem;
+    }
+
+    #header-subtitle {
+        font-size: 2rem;
+    }
+
+    .header-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Main */
+    main {
+        margin: 3rem 2.5rem;
+    }
+
+    /* Contenue du main */
+    #main-title {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #main-content {
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+    }
+
+    /* Navbar */
+    nav {
+        font-size: 1.5rem;
+        height: 5rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    #main-nav {
+        margin: 0 2rem;
+        margin-top: 3rem;
+    }
+
+    main {
+        margin-top: 0;
+    }
+
+    nav {
+        float: right;
+        position: relative;
+        height: 35vh;
+        width: 15vw;
+        margin: 2rem;
+        border: 10px solid transparent;
+        border-radius: 32px;
+        background-image:
+            linear-gradient(225deg, #b5d8ed80, #6041bf80, #261c3180 60%),
+            linear-gradient(#261c31, #261c31),
+            radial-gradient(at top right, #b5d8ed, #615bb300 75%);
+        background-origin: border-box;
+        background-clip: content-box, content-box, border-box;
+        color: #fff;
+        font-size: 1.25rem;
+    }
+
+    #nav-list {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+}
