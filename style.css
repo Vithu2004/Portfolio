@@ -45,9 +45,11 @@ h5 {
     margin-left: 1rem;
 }
 
-.contact-email a {
+.main-link,
+.main-link a {
     color: #B5D8ED;
     text-decoration: none;
+    cursor: pointer;
 }
 
 #main-content strong {
@@ -83,6 +85,7 @@ main::after {
 
 .nav-item {
     cursor: pointer;
+    text-align: center;
 }
 
 
@@ -275,8 +278,8 @@ nav {
     nav {
         float: right;
         position: relative;
-        height: 35vh;
-        width: 15vw;
+        height: 45vh;
+        width: 18vw;
         margin: 2rem;
         border: 10px solid transparent;
         border-radius: 32px;
@@ -294,6 +297,7 @@ nav {
         flex-direction: column;
         justify-content: center;
         gap: 2rem;
+        margin: 0 1rem;
     }
 
 }
