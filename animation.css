@@ -1,0 +1,54 @@
+/* Fade-in et slide pour header */
+.header-fade-in {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: headerFadeIn 0.8s forwards;
+}
+
+@keyframes headerFadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Icons header : fade-in cascade */
+.header-icon {
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: iconFadeIn 0.6s forwards;
+    animation-delay: var(--delay);
+}
+
+@keyframes iconFadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Main content fade-in */
+.main-fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: mainFadeIn 0.8s forwards;
+    animation-delay: 0.6s;
+    /* commence après header */
+}
+
+@keyframes mainFadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Nav item hover effect */
+.nav-item {
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-item:hover {
+    color: #8a99d2;
+    transform: translateY(-3px);
+}
