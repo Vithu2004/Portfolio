@@ -22,7 +22,7 @@ export const contenuAbout = `
         <h4>What's Next?</h4>
         <p class="main-text">My portfolio is not just a showcase of what I have done, it is a live documentation of what I am learning. While I have a dedicated page for my projects (which I highly recommend you check out!), this space is about the person behind the keyboard.</p>
         <p class="main-text">I am always open to discussing technology, potential collaborations, or simply the future of IT. If you want to talk code, logic, or even Minecraft, feel free to reach out.</p>
-        <p class="main-text main-link">📧 <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzBWKlJLccHKlXzBHZDrfXsCRMqxVckZFkGrdQBsxZtKlPVlSDDQFmWBCMfmCFLwHPCjMhR">vithujan200426@gmail.com</a></p>
+        <p class="main-text main-link">📧 <a href="mailto:vithujan200426@gmail.com">vithujan200426@gmail.com</a></p>
     </div>
 `;
 
