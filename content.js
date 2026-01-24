@@ -37,10 +37,10 @@ export const contenuPageProject = `
             <p class="main-text"><strong>Click below to dive into the adventure of discovering AI from zero to model!</strong></p>
             <p class="main-text main-link" id="nav-project1">📁Read Understanding The Invisible here</p>          
             <hr>
-            <h3>Project 2: DailyMood Journaling App — Bringing Your Mood to Life on Android</h3>
-            <p class="main-text">Curious about Android development, I challenged myself to create a personal journaling app. Every day, users can summarize their mood in three words—optimism, joy, sadness—and navigate through a fully functional calendar. From designing the UI to managing data and building the logic, I developed every part of the app myself. It was my first real taste of mobile development and even included the thrill of publishing it.</p>
-            <p class="main-text"><strong>Click below to see how I turned curiosity into a working Android app that tracks emotions day by day.</strong></p>
-            <p class="main-text main-link" id="nav-project2">📁Read DailyMood Journaling App here</p>
+            <h3>Project 2: Decoding the Silence — Building an Intelligent SQL Injection Scanner</h3>
+            <p class="main-text">Have you ever wondered how a hacker "sees" a vulnerability when the server remains completely silent? I wanted to go beyond the basics, so I built a professional-grade automated scanner from scratch. I engineered a recursive crawler to map attack surfaces, implemented blind detection engines using differential size analysis, and mastered the math behind time-based injections to account for network jitter. It wasn’t just about finding bugs—it was about mastering the invisible logic of cybersecurity and building a tool that thinks like a pentester.</p>
+            <p class="main-text"><strong>Click below to explore how I turned silent data into a high-precision security audit tool!</strong></p>
+            <p class="main-text main-link" id="nav-project2">📁Read Decoding The Silence here</p>          
             <hr>
             <p class="main-text">Both projects reflect my journey: one into the invisible world of AI, the other into the tangible world of mobile apps. Different challenges, different technologies, same curiosity driving me forward. Take a look, get inspired, and maybe find a spark for your own adventure.</p>
         </div>
@@ -124,38 +124,57 @@ export const contenuProject1 = `
     
         <hr>
         <p class="main-link">
-            📁 <a href="https://github.com/Vithu2004/Predicition_immobilier_IA/tree/main">Check out my Projects page to see this project and more!</a>
+            📁 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Vithu2004/Predicition_immobilier_IA/tree/main">Check out my Projects page to see this project and more!</a>
         </p>    
     </div>
 `;
 
 export const contenuProject2 = `
-    <h2 id="main-title">Daily Mood: My First Android App Adventure</h2>
-    <div id="main-content">
-        <p class="main-text">Have you ever wondered what it's like to build something entirely from scratch? To dive into a world you've never explored before? For me, that world was <strong>Android development</strong>.</p>
-        <p class="main-text">It all started with a simple idea: what if I could capture my daily mood in just three words? Optimism, joy, sadness — whatever defined my day, all stored in a single app that I could carry in my pocket. I wanted a journal that made sense to me, and I wanted to learn how to make it.</p>
-        <hr>
-        <h3>Act I — Stepping into Android Studio</h3>
-        <p class="main-text">I had never built a mobile app before. Android Studio was intimidating at first: XML layouts, activities, adapters… a language and structure completely different from my web and Python projects. But curiosity got the better of me. I wanted to see how apps are made, and how to eventually publish one.</p>
-        <hr>
-        <h3>Act II — Designing My Own World</h3>
-        <p class="main-text">I decided to handle everything myself. From the code that runs the calendar, to the layout of buttons and text fields, to the logic of saving and retrieving moods — every single line was written by me. The goal? An app that felt personal and intuitive.</p>
-        <p class="main-text">The calendar became the central piece of the puzzle. Each day needed to display three words summarizing my mood. Navigating months, handling empty days, and keeping everything synchronized felt like solving a giant puzzle. It was challenging, yes, but immensely satisfying when it finally worked.</p>
-        <hr>
-        <h3>Act III — The Daily Mood Journey</h3>
-        <p class="main-text">The main feature of the app is simple yet powerful: record your mood in three words, every day. Buttons take you to the “Daily Journaling” of today or allow you to freely type your thoughts. Behind the scenes, <strong>SharedPreferences</strong> store everything safely, and the calendar dynamically updates as you go.</p>
-        <p class="main-text">Watching my words appear on the calendar, seeing the days fill up, was strangely rewarding. I was not just building an app; I was creating a personal diary that I could interact with every day.</p>
-        <hr>
-        <h3>Act IV — Lessons Learned</h3>
-        <p class="main-text">This project taught me more than just Android syntax. It showed me what it means to design an experience end-to-end, to think about how people (or myself) will interact with the app, and how even small decisions in UI or data storage matter.</p>
-        <p class="main-text">I learned that making an app isn't about fancy features — it's about thoughtful design, careful logic, and attention to detail. And most importantly, it taught me the thrill of building something real that I could hold in my hand.</p>
-        <hr>
-        <h3>Epilogue — More Than Code</h3>
-        <p class="main-text">Maybe you've never coded before. Maybe you've only touched a phone. Maybe you're just curious. That's fine. This story isn't about mastering Android in a day — it's about curiosity, experimentation, and the satisfaction of creating something meaningful from nothing.</p>
-        <p class="main-text">For me, <strong>Daily Mood</strong> is more than an app. It's a reminder that learning, trying, and building can be as personal and rewarding as the words we write about our own days.</p>
-        <hr>
-        <p class="main-link">
-            📁 <a href="https://github.com/Vithu2004/journaling_app/tree/master">Check out my Projects page to see this project and more!</a>
-        </p>      
-    </div>
+    <h2 id="main-title">Decoding the Silence: Building a Professional SQL Injection Scanner from Scratch</h2>
+        <div id="main-content">
+            <p class="main-text">Have you ever wondered how security experts actually "see" a vulnerability? For a long time, <strong>SQL Injection</strong> was just a term I heard in YouTube videos—a mysterious flaw where a single quote could topple a database.</p>
+            <p class="main-text">I kept seeing the same tutorials: "Just put a <em>'</em> and see if it breaks." But as a developer, that wasn't enough for me. I wanted to know: <em>How can a machine detect a flaw when the server remains silent?</em></p>
+            <p class="main-text">That curiosity turned into a months-long journey of building a full-scale automated scanner. Not just a script, but a "brain" that thinks like a pentester.</p>
+            <hr>
+            
+            <h3>Act I — Mapping the Labyrinth</h3>
+            <p class="main-text">An automated attack doesn't start with a payload. It starts with <strong>visibility</strong>. If you can't see the door, you can't check the lock.</p>
+            <p class="main-text">I spent weeks building the <strong>Crawler</strong>. It felt like teaching a robot to navigate a maze. It had to find every link, every hidden form, and every API endpoint without getting stuck in infinite loops.</p>
+            <p class="main-text">Watching my terminal discover 50+ entry points in seconds was my first "Eureka" moment. I had mapped the attack surface; now, the real challenge began.</p>
+            <hr>
+
+            <h3>Act II — The 1% Difference</h3>
+            <p class="main-text">The biggest myth in cybersecurity is that a hack always results in a big "Error 500" message. In the real world, servers are often <strong>Blind</strong>. They don't tell you what happened.</p>
+            <p class="main-text">I had to implement <strong>Boolean-Based analysis</strong>. This is where it got mathematical. My scanner had to compare the "Baseline" (the normal page) with the "True" response at a byte-level.</p>
+            <p class="main-text"><strong>"Is a 1.2% difference in page size a proof of a vulnerability or just a dynamic ad changing?"</strong></p>
+            <p class="main-text">I had to write algorithms to filter out the noise. I learned that data is messy, and security is often about finding a needle of logic in a haystack of random HTML changes.</p>
+            <hr>
+
+            <h3>Act III — Racing Against the Clock</h3>
+            <p class="main-text">Then came the hardest part: <strong>Time-Based Injections</strong>. When the server doesn't send a different page, you have to make it "talk" through time.</p>
+            <p class="main-text">I told the server: <em>"If the database name starts with 'A', wait for 5 seconds."</em></p>
+            <p class="main-text">But the internet is unpredictable. A slow Wi-Fi could look like a vulnerability. I had to build a detection engine that calculates a <strong>dynamic baseline</strong> and uses a 90% confidence threshold to verify the delay.</p>
+            <p class="main-text">When I saw my scanner pause for exactly 5 seconds, then 2 seconds for confirmation, I knew I hadn't just built a tool—I had built a precision instrument.</p>
+            <hr>
+
+            <h3>Act IV — The Invisible Shield</h3>
+            <p class="main-text">During my tests, I hit a wall: <strong>WAFs (Web Application Firewalls)</strong>. They blocked my payloads and gave me "403 Forbidden" errors.</p>
+            <p class="main-text">Instead of giving up, I coded a detection module. My scanner learned to recognize when it was being watched. It adjusted its aggressiveness, modified its payloads, and learned to "whisper" instead of "scream."</p>
+            <p class="main-text">This taught me the most important lesson in software: <strong>Robustness comes from handling the "No," not just the "Yes."</strong></p>
+            <hr>
+
+            <h3>Act V — Beyond the Code</h2>
+            <p class="main-text">This project changed my perspective on development. I used to build features; now I build systems that defend themselves.</p>
+            <ul class="main-list">
+                <li><strong>Precision over Power:</strong> It's easy to crash a server; it's hard to analyze it without leaving a trace.</li>
+                <li><strong>The Beauty of Logic:</strong> SQLi isn't just a bug; it's a failure of logic that can be found through math and observation.</li>
+                <li><strong>Empathy for Security:</strong> I now understand why security teams are so meticulous. One unvalidated parameter is all it takes.</li>
+            </ul>
+            <p class="main-text">Today, this scanner is more than a line in my GitHub. It’s the proof that I can take a complex, invisible problem and turn it into a structured, automated solution.</p>
+            
+            <hr>
+            <p class="main-link">
+                📁 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Vithu2004/SQLiHunterGUI">Check out the full engine and the logic behind it on GitHub!</a>
+            </p>    
+        </div>
 `;

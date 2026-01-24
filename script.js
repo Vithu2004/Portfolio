@@ -18,7 +18,7 @@ const projectMenu = `
 <ul id="nav-list">
     <li class="nav-item" id="nav-about">About Me</li>
     <li class="nav-item" id="nav-project1">Project 1:<br>Understanding the invisible</li>
-    <li class="nav-item" id="nav-project2">Project 2:<br>DailyMood</li>
+    <li class="nav-item" id="nav-project2">Project 2:<br>Decoding the Silence</li>
 </ul>`;
 
 // Fonction pour afficher le menu et ajouter les listeners
